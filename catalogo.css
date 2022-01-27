@@ -1,0 +1,20 @@
+.principal{
+    padding: 5em;
+
+}
+
+.card{
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.22, 1.275);
+    border: 5px solid #3333339b;
+    border-radius: 30px;
+    margin: 1em;
+    margin-top: 2em;
+    
+}
+
+.card:hover{
+    transform: scale(1.2);
+}
+.imagen{
+    padding: 1em;
+}
