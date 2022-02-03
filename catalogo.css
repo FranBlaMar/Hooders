@@ -14,7 +14,31 @@
 
 .card:hover{
     transform: scale(1.2);
+  
+    animation-name: flash_border;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-name:flash_border;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: flash_border;
+  -moz-animation-duration: 2s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
 }
+@keyframes flash_border {
+    0% {
+      border-color: rgba(97, 5, 5, 0.862);
+    }
+    50% {
+      border-color: #3333339b;
+    }
+    100% {
+      border-color: rgba(97, 5, 5, 0.862);
+    }
+  }
 .imagen{
-    padding: 1em;
+    padding: 0.5em;
 }
