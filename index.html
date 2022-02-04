@@ -22,21 +22,8 @@
       </header>
 
       <style>
-          .izquierda{
-            width: 50%;
-             float:left;
-             margin-top: 1%;
-             margin-left: -5%;
-          }
-          .derecha{
-            width: 50%;
-            float:right;
-          }
-          .card{
-              margin-top: 10%;
-              margin-left: 25%;
-              text-align: center;
-          }
+         
+         
           .btn-circle {
          width: 40px;
          height: 40px;
@@ -44,12 +31,13 @@
         }
       
       </style>
-      <div class="izquierda">
-        <img src="sudadera.png" class="img-fluid" alt="Sudadera tech hombre">
+  <div class="container row ">
+      <div class="izquierda col-10 col-xs-6">
+        <img src="sudadera.png" class="img-fluid" alt="Sudadera tech hombre" style="width: 50rem;">
 
      </div>
      
-     <div class="derecha">
+     <div class="derecha col-2 text-center col-xs-6">
         <div class="card" style="width: 18rem;">
             <div class="card-body">
               <h3 class="card-title">Sudadera Techwear</h3>
@@ -88,9 +76,24 @@
             </div>
           </div>
      </div>
-     
-    
-            
-    
+    </div>  
+ 
+               <!--Footer-->
+  <footer class="text-center" style="background-color:#000000;">
+    <!--div con los iconos de social media-->
+    <div class="p-4">
+      <section>
+        <i class="bi bi-twitter p-4" style="color: #FFFFFF;"></i>
+        <i class="bi bi-instagram p-4" style="color: #FFFFFF;"></i>
+        <i class="bi bi-facebook p-4" style="color: #FFFFFF;"></i>
+      </section>
+    </div>
+    <!--div con la informacion copyright-->
+    <div class="p-3">
+      <p class="text-white">© 2022 Copyright: Hooders.com</p>
+    </div>
+  </footer>
+ 
+
 </body>
 </html>
