@@ -23,45 +23,72 @@
     </div>
   </header>
 
-    <div class="container" >
-        <div class="principal row text-center" >
-            <table class="table table-dark">
-                <thead>
-                  <tr>
-                    <th scope="col"></th>
-                    <th scope="col">Nombre</th>
-                    <th scope="col">Apellidos</th>
-                    <th scope="col">Twitter</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">CEO</th>
-                    <td>Fran </td>
-                    <td>Blanco</td>
-                    <td>@FraBlaHooders</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Front Developer</th>
-                    <td>Joaquín</td>
-                    <td>Gomez</td>
-                    <td>@KinitoHooders</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Back Developer</th>
-                    <td>Rafael</td>
-                    <td>Cuberos</td>
-                    <td>@RafikubeHooders</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">AFK</th>
-                    <td>Juan José</td>
-                    <td>Alcazar</td>
-                    <td>@AsanqueHooders</td>
-                  </tr>
-                </tbody>
-              </table>
+
+    <div class="container" style="min-height: 100vh;" >
+    
+      <div class="content">
+        <!-- Nav pills -->
+        <ul class="nav nav-pills" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="pill" href="#Equipo"><h1>Equipo</h1></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#Historia"><h1>Historia</h1></a>
+          </li>
+        </ul>
+    
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div id="Equipo" class="container tab-pane active">
+            <div class="principal row text-center" >
+              <table class="table table-dark">
+                  <thead>
+                    <tr>
+                      <th scope="col"></th>
+                      <th scope="col">Nombre</th>
+                      <th scope="col">Apellidos</th>
+                      <th scope="col">Twitter</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">CEO</th>
+                      <td>Fran </td>
+                      <td>Blanco</td>
+                      <td>@FraBlaHooders</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Front Developer</th>
+                      <td>Joaquín</td>
+                      <td>Gomez</td>
+                      <td>@KinitoHooders</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Back Developer</th>
+                      <td>Rafael</td>
+                      <td>Cuberos</td>
+                      <td>@RafikubeHooders</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">AFK</th>
+                      <td>Juan José</td>
+                      <td>Alcazar</td>
+                      <td>@AsanqueHooders</td>
+                    </tr>
+                  </tbody>
+                </table>
+          </div>
+
+          </div>
+          <div id="Historia" class="container tab-pane">
+            historia
+          </div>
         </div>
+      </div>
+
+
+
+        
 
     </div>
     <footer class="text-center footer" style="background-color:#000000;">
@@ -79,6 +106,9 @@
       </div>
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
 </body>
 </html>
