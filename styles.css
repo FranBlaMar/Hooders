@@ -1,0 +1,12 @@
+.btnColores{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px!important;
+   }
+   body{
+     background-image: url("fondo.jpg");
+   }
+   .detalleProdu{
+     margin-top: 15%;
+     margin-left: 10%;
+   }
