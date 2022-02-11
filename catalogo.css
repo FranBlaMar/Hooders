@@ -1,6 +1,5 @@
 .principal{
-    padding: 5em;
-
+    padding-top: 2em;
 }
 body{
   background-image: url(fondo.jpg);
@@ -42,6 +41,15 @@ hr{
 
 .nav-tabs{
   margin-top: 2em;
+  width: 70%;
+}
+.nav-link{
+color: white;
+font-size: 2em;
+
+}
+.nav-link:hover{
+  color: rgb(4, 97, 204);
 }
 /*Animacion cuando se hace hover sobre las cartas*/
 .card:hover{
