@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/b6fe3b2d7d.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="custom.css">
+  <title>Document</title>
+</head>
+<!--Cabecera de la web con navbar desplegable-->
+<header class="p-4" style="background-color:#000000;">
+    <div class="d-flex">
+        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <i style="font-size: 50px; color: #FFFFFF" class="bi bi-list"></i>
+        </button> 
+        <img class="logo img-fluid" style="height: 4rem;" src="images/logo.png">
+    </div>
+  </header>
+  <!--Navbar desplegable con iconos y buscador-->
+  <div class="collapse" id="navbar" style="background-color: #000000;">
+    <div class="container-fluid" >
+        <div class="col-sm-auto bg-light sticky-top" >
+            <div class="bg-light align-items-center sticky-top" >                  
+                <ul class="nav text-center align-items-center nav-menu ">
+                    <li class="nav-item p-3 iconoNav">
+                      <a href="main.html" class="nav-link hover-overlay" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home">
+                        <i class="fa-solid fa-house" style="font-size: 2em;"> Home</i>
+                      </a>
+                    </li>
+                    <li class="nav-item p-3 iconoNav">
+                        <a href="catalogo.html" class="nav-link" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home">
+                          <i class="fa-solid fa-shirt" style="font-size: 2em;"> Clothes </i>
+                        </a>
+                    </li> 
+                    <li class="nav-item p-3 iconoNav">
+                        <a href="login.html" class="nav-link" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home">
+                          <i class="fa-solid fa-circle-user" style="font-size: 2.1em;"> Login</i>
+                        </a>
+                    </li>
+                    <li class="nav-item p-3 iconoNav">
+                        <a href="contacto.html" class="nav-link" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home">
+                          <i class="fa-solid fa-circle-info" style="font-size: 2.1em;"> About Us</i>
+                        </a>
+                    </li>
+                    <li class="nav-item p-3 search">
+                      <form>
+                        <input type="search" class="form-control search" placeholder="Search...">
+                      </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!--Fin Navbar y header-->
+
+  <!--Div izquierdo, foto de producto-->
+  <div class="detalles container d-flex flex-wrap" style="min-height: 100vh;">
+    <div class="izquierda ">
+      <img src="images/catalogo2.png" class="imagenDetalle" alt="Hoodie Tech Man" style="width: 25rem; margin-left: 12%;">
+    </div>
+<!--Div derecho, detalles y compra del producto-->
+    <div class="derecha">
+      <div class="card detalleProdu" style="width: 18rem;">
+        <div class="card-body">
+          <h3 class="card-title">Techwear hooder</h3>
+          <p class="card-text">Hooder with an oversize cut in intense black and the softness of the fabric,
+            They impress with their clean cut and comfortable feel when you wear them.
+            <br>
+            <br>
+            Made in Spain with 100% organic cotton and according to fair and sustainable standards.
+          </p>
+          <h3 class="card-title">49,99$</h3>
+          <br>
+          <!--Seleccion de colores-->
+          <div class="colores">
+            <button type="button" class="btn btn-primary btn-circle btnColores"><i class=""></i>
+            </button>
+            <button type="button" class="btn btn-success btn-circle btnColores"><i class=""></i>
+            </button>
+            <button type="button" class="btn btn-info btn-circle btnColores"><i class=""></i>
+            </button>
+            <button type="button" class="btn btn-warning btn-circle btnColores"><i class=""></i>
+            </button>
+          </div>
+          <br>
+          <!--Seleccion de tallas-->  
+          <div class="tallas">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Size</option>
+              <option value="1">S</option>
+              <option value="2">M</option>
+              <option value="3">L</option>
+              <option value="3">XL</option>
+              <option value="1">XXL</option>
+            </select>
+          </div>
+          <br>
+          <a href="#" class="card-link">
+            <button type="button" class="btn btn-secondary btn-lg">Buy</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Footer-->
+  <footer class="text-center" style="background-color:#000000;">
+    <!--div con los iconos de social media-->
+    <div class="p-4">
+      <section>
+        <i class="bi bi-twitter p-4" style="color: #FFFFFF;"></i>
+        <i class="bi bi-instagram p-4" style="color: #FFFFFF;"></i>
+        <i class="bi bi-facebook p-4" style="color: #FFFFFF;"></i>
+      </section>
+    </div>
+    <!--div con la informacion copyright-->
+    <div class="p-3">
+      <p class="text-white">© 2022 Copyright: Hooders.com</p>
+    </div>
+  </footer>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/b6fe3b2d7d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="custom.css">
+    <title>Catalogo</title>
+</head>
+<body class="fondo">
+    <!--Cabecera de la web con navbar desplegable-->
+    <header class="p-4" style="background-color:#000000;">
+        <div class="d-flex">
+            <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <i style="font-size: 50px; color: #FFFFFF" class="bi bi-list"></i>
+            </button> 
+            <img class="logo img-fluid" style="height: 4rem;" src="images/logo.png">
+        </div>
+      </header>
+      <!--Navbar desplegable con iconos y buscador-->
+      <div class="collapse" id="navbar" style="background-color: #000000;">
+        <div class="container-fluid" >
+            <div class="col-sm-auto bg-light sticky-top" >
+                <div class="bg-light align-items-center sticky-top" >                  
+                    <ul class="nav text-center align-items-center nav-menu ">
+                        <li class="nav-item p-3 iconoNav">
+                          <a href="main.html" class="nav-link hover-overlay" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home">
+                            <i class="fa-solid fa-house" style="font-size: 2em;"> Home</i>
+                          </a>
+                        </li>
+                        <li class="nav-item p-3 iconoNav">
+                            <a href="catalogo.html" class="nav-link" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home">
+                              <i class="fa-solid fa-shirt" style="font-size: 2em;"> Clothes </i>
+                            </a>
+                        </li> 
+                        <li class="nav-item p-3 iconoNav">
+                            <a href="login.html" class="nav-link" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home">
+                              <i class="fa-solid fa-circle-user" style="font-size: 2.1em;"> Login</i>
+                            </a>
+                        </li>
+                        <li class="nav-item p-3 iconoNav">
+                            <a href="contacto.html" class="nav-link" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home">
+                              <i class="fa-solid fa-circle-info" style="font-size: 2.1em;"> About Us</i>
+                            </a>
+                        </li>
+                        <li class="nav-item p-3 search">
+                          <form>
+                            <input type="search" class="form-control search" placeholder="Search...">
+                          </form>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!--Fin Navbar y header-->
+
+  <!--Cuerpo de la página-->
+    <div class="container" style="min-height: 110vh;">
+        <div class="principal d-flex flex-wrap" >
+          <!--Aqui se generaría automaticamente las cards usando angular-->
+            <div class="card cartaCatalogo" style="width: 18rem;">
+                <img class="card-img-top imagenCatalogo" src="images/catalogo2.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text fa-solid">TechWear Outfit</p>
+                  <hr>
+                  <a href="detalles.html" class="btn btn-secondary text-uppercase fa-solid">details</a>
+                </div>
+            </div>
+            <div class="card cartaCatalogo" style="width: 18rem;">
+              <img class="card-img-top imagenCatalogo" src="images/catalogo1.png" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text fa-solid">TechWear Outfit </p>
+                <hr>
+                <a href="#" class="btn btn-secondary text-uppercase fa-solid">details</a>
+              </div>
+            </div>
+            <div class="card cartaCatalogo" style="width: 18rem;">
+                <img class="card-img-top imagenCatalogo" src="images/catalogo3.png" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text fa-solid">Trasher Hoodie</p>
+                    <hr>
+                    <a href="#" class="btn btn-secondary text-uppercase fa-solid">details</a>
+                </div>
+            </div>
+            <div class="card cartaCatalogo" style="width: 18rem;">
+                <img class="card-img-top imagenCatalogo" src="images/catalogo4.png" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text fa-solid">Sinners Hoodie</p>
+                    <hr>
+                    <a href="#" class="btn btn-secondary text-uppercase fa-solid">details</a>
+                </div>
+            </div>
+            <div class="card cartaCatalogo" style="width: 18rem;">
+                <img class="card-img-top imagenCatalogo" src="images/catalogo5.png" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text fa-solid">Sport Style</p>
+                    <hr>
+                    <a href="#" class="btn btn-secondary text-uppercase fa-solid">details</a>
+                </div>
+            </div>
+            <div class="card cartaCatalogo" style="width: 18rem;">
+                <img class="card-img-top imagenCatalogo" src="images/catalogo6.png" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text fa-solid">Casual Men Outfit</p>
+                    <hr>
+                    <a href="#" class="btn btn-secondary text-uppercase fa-solid">details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fin cards-->
+
+    <!--Footer-->
+    <footer class="text-center footer" style="background-color:#000000;">
+      <!--div con los iconos de social media-->
+      <div class="p-4">
+        <section>
+          <i class="bi bi-twitter p-4" style="color: #FFFFFF;"></i>
+          <i class="bi bi-instagram p-4" style="color: #FFFFFF;"></i>
+          <i class="bi bi-facebook p-4" style="color: #FFFFFF;"></i>
+        </section>
+      </div>
+      <!--div con la informacion copyright-->
+      <div class="p-3">
+        <p class="text-white">© 2022 Copyright: Hooders.com</p>
+      </div>
+    </footer>
+    <!--Fin Footer-->
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+</html>

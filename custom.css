@@ -1,0 +1,180 @@
+
+/*HEADER, NAVBAR AND FOOTER*/
+
+.bg-light {
+    background-color: #000000!important;
+}
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+    height: auto;
+}
+.logo{
+  margin: auto;
+  max-width: 220px;
+}
+.iconoNav{
+  margin-left: 3rem;
+}
+.search{
+  margin: auto;
+  width: 250px;
+}
+.iconoNav a{
+  font-size:8px;
+  font-weight: bolder;
+  letter-spacing: 4px;
+  margin: auto;
+  color:#FFFF;
+  
+}
+.iconoNav a:hover{
+  color: #ffee10;
+  text-shadow: 0 0 15px #ffee10;
+}
+
+.paginaActual{
+    color: #ffee10;
+    text-shadow: 0 0 15px #ffee10;
+}
+
+
+/*MAIN PAGE*/
+.carousel{
+    width: 22.5em;
+    margin: 1rem;
+}
+.carousel-item img{
+    width: 22.5em !important;
+    height: 30em !important;
+}
+
+.fotoPortada{
+    width: 22.5rem;
+    margin: 1rem;
+}
+.banner img{
+    padding: 10px;
+}
+.imagenes{
+   justify-content: center;
+}
+
+
+/*CATALOGO PAGE*/
+.principal{
+    padding-top: 2em;
+    margin: auto;
+}
+
+body{
+    background-image: url(images/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.imagenCatalogo{
+    padding: 0.5em;
+    height: 18rem;
+}
+.cartaCatalogo{
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.22, 1.275);
+    border: 5px solid black;
+    border-radius: 30px;
+    margin: auto;
+    margin-bottom: 1em;
+    margin-top: 2em;
+    width: 40rem;
+    letter-spacing: 2px;
+}
+ 
+.content{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 30px;
+    
+}
+
+/*Animacion cuando se hace hover sobre las cartas*/
+.cartaCatalogo:hover{
+    transform: scale(1.1);
+    animation-name: flash_border;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-animation-name:flash_border;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: flash_border;
+    -moz-animation-duration: 1.5s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+}
+@keyframes flash_border {
+    0% {
+        border-color:black;
+    }
+    20%{
+        border-color:rgb(198, 201, 4);
+    }
+    80% {
+        border-color: rgb(198, 201, 4);
+    }
+    100%{
+        border-color: black;
+    }
+}
+
+
+/*CONTACT PAGE*/
+.pestañas{
+    margin-left: 10%;
+}
+.table-dark{
+    font-size: 100%;
+    width: 70%;
+}
+hr{
+    height:2px;
+    border-width:0;color:gray;
+    background-color:gray
+}
+  
+.nav-tabs{
+    margin-top: 2em;
+    width: 70%;
+}
+.nav-link{
+  color: white;
+  font-size: 2em;
+  
+}
+.nav-link:hover{
+    background-color: rgb(0, 0, 0);
+    color:#ffee10;
+}
+
+
+/*DETALLES PAGE*/
+.btnColores{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px!important;
+}
+.izquierda{
+    width: 50vw;
+}
+.detalleProdu{
+ margin-top: 15%;
+ margin-left: 10%;
+ margin-bottom: 10%;
+ }
+
+ .imagenDetalle{
+    margin-top: 5%;
+    margin-left: 10%;
+
+ }
