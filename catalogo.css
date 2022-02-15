@@ -1,7 +1,7 @@
 .principal{
     padding-top: 2em;
 }
-body{
+.fondo{
   background-image: url(fondo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -9,6 +9,13 @@ body{
 .imagen{
   padding: 0.5em;
 
+}
+.pestañas{
+  margin-left: 10%;
+}
+.table-dark{
+  font-size: 100%;
+  width: 70%;
 }
 hr{
   height:2px;
